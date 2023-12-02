@@ -1,0 +1,42 @@
+.Detail {
+  margin: 20px;
+  padding: 20px;
+  background-color: var(--color-papper);
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  flex-direction: column; /* Alinea los elementos en una columna vertical */
+}
+
+.IdDent {
+  font-size: 40px;
+  margin: 10px 0 50px; /* Ajusta según sea necesario */
+  color: var(--color-primary);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Section {
+  display: flex; /* Alinea los elementos en línea horizontalmente */
+  align-items: center;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Section p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.Detail h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+  .Footer{
+    background-color: red;
+  }

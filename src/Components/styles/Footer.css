@@ -1,0 +1,65 @@
+.Footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--footer-background);
+    color: var(--color-text);
+    padding: 10px;
+  }
+  
+  .Info {
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .caption {
+    font-size: 0.8rem;
+  }
+  
+  .Digital {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .SocialMedia {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .SocialMedia a {
+    text-decoration: none;
+    color: var(--color-text);
+    transition: color 0.3s ease;
+  }
+  
+  .SocialMedia a:hover {
+    color: var(--color-accent);
+  }
+  
+  .SocialMedia img {
+    width: 30px;
+  }
+  
+  .Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Logo p {
+    margin: 0;
+  }
+  
+  .Logo img {
+    width: 200px;
+  }
+  
